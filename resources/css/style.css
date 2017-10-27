@@ -1,0 +1,26 @@
+html,
+body {
+	font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+header {
+	background-color: black;
+	font-size: 1rem;
+}
+
+.name {
+	background-color: black;
+}
+
+
+
+
+
+
+footer {
+	background-color: black;
+	text-align: left;
+}
