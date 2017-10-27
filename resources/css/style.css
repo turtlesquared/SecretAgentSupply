@@ -67,6 +67,7 @@ nav ul {
 	list-style: none;
 	align-items: center;
 	justify-content: space-between;
+	padding-top: 0.75em;
 }
 
 .mobile-nav {
