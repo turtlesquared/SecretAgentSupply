@@ -4,7 +4,7 @@ body {
   font-size: 18px;
   color: white;
   margin: 0;
-  line-height: 1.4em;
+
 }
 
 h1,
@@ -148,6 +148,50 @@ footer {
 
 	.mobile-nav {
 		display: block;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 470px) {
+	.top {
+		height: 15rem;
+	}
+
+	.new {
+		padding-top: 1em;
+		width: 100%;
+		top: 8em;
+		position: center;
+	}
+
+	.new h1 {
+		font-size: 1rem;
+	}
+
+	.new h4 {
+		font-size: 0.77rem;
+	}
+
+	.product {
+			width: 90%;
+			margin: auto;
+		}
+
+	.products, 
+	.business-info {
+		flex-wrap: wrap;
+	}
+
+	.info {
+		width: 90%;
+		margin: 0.5rem auto;
+	}
+
+	.product.watch {
+		display: none;
+	}
+
+	footer {
 		text-align: center;
 	}
 }
